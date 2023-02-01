@@ -77,7 +77,7 @@ const Cart = () => {
           display={"flex"}
           alignItems={"flex-end"}
         >
-          <Flex w={"400px"} bg={"#161D2F"}>
+          <Flex w={"100%"} bg={"#161D2F"}>
             <Button
               onClick={() => closeDrawer()}
               w={"50px"}
@@ -92,7 +92,7 @@ const Cart = () => {
           </Flex>
           <DrawerHeader
             borderBottomWidth="1px"
-            width={"400px"}
+            width={"100%"}
             bg={"#161D2F"}
             fontSize={"1.2rem"}
             py={"10px"}
@@ -102,7 +102,7 @@ const Cart = () => {
           </DrawerHeader>
 
           <DrawerBody
-            w={"400px"}
+            w={"100%"}
             bg={"#161D2F"}
             opacity={"0.9"}
             h={"100%"}

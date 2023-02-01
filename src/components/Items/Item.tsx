@@ -14,7 +14,8 @@ const Item = ({ item }: Props) => {
     <Flex
       justifyContent={"space-between"}
       alignItems={"center"}
-      w={"400px"}
+      mx={"3"}
+      maxWidth={"400px"}
       h={"600px"}
       direction={"column"}
       boxShadow={"2xl"}
